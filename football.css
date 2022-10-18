@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "roboto",sans-serif;
+}
+body{
+    background-color: rgba(22, 22, 189, 0.308);
+}
+.header{
+    width: 100%;
+    background-color: rgb(58, 2, 2);
+}
+.court{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.image{
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+}
+.heading{
+    justify-content: center;
+    display: flex;
+    font-size: 25px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#title{
+    font-size: 20px;
+}
+#title_2{
+    font-size: 17px;
+}
+.wrapper{
+    width:100%;
+    margin: 30px;
+    
+}
+.wrapper .container{
+    padding-top:5px;
+}
+.wrapper .container  .hero_section{
+    width:100%;
+    margin:0px auto;
+    padding-top:20px;
+    display: grid;
+     grid-template-columns:repeat(4, 1fr) ;
+     grid-gap: 20px;
+}
+.wrapper .container  .hero-section.gallery{
+    width: 80%;
+    position: relative;
+}
+.wrapper .container  .hero_section.gallery.image_section{
+    width: 100%;
+}
+.wrapper .container  .hero_section.gallery.image_section img{
+    width: 100%;
+    height: auto;
+    border: 20px solid black;
+    padding:5px;
+    display: block;
+}
+.image{
+    width: 250px;
+    height: 250px;
+}
+.footer{
+    justify-content: center;
+    background-color: rgb(58, 2, 2) ;
+    height: 50px;
+}
+#foot{
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+    padding-top: 10px ;
+}
